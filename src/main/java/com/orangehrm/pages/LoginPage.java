@@ -4,11 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import com.orangehrm.*;
-import com.orangehrm.utilities.ElementUtil;
-
-import com.orangehrm.utilities.Constants;
-
-
+import com.orangehrm.utilities.*;
 
 public class LoginPage {
 
@@ -43,11 +39,17 @@ public class LoginPage {
 	}
 
 	
-	public void doLogin(String un, String pwd) {
+//	public void doLogin(String un, String pwd) {
+//		elementUtil.doSendKeys(username, un);
+//		elementUtil.doSendKeys(password, pwd);
+//		elementUtil.doClick(loginBtn);
+//		
+//	}
+	public DashBoardPage doLogin(String un, String pwd) {
 		elementUtil.doSendKeys(username, un);
 		elementUtil.doSendKeys(password, pwd);
 		elementUtil.doClick(loginBtn);
-		
+		return new DashBoardPage(driver);
 	}
 	public void orangehrmLogin(String un, String pwd) {
 		

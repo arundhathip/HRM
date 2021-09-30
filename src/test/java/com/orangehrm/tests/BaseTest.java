@@ -19,6 +19,7 @@ public class BaseTest {
 	
 
 	LoginPage loginPage;
+	DashBoardPage dashboardPage;
 	DriverFactory df;
 	
 	
@@ -28,6 +29,7 @@ public class BaseTest {
 		prop = df.initProperties();
 		driver = df.initDriver(prop);
 		loginPage = new LoginPage(driver);
+	
 	}
 
 	@AfterTest

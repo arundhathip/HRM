@@ -8,11 +8,12 @@ public class Constants {
 	public static final int DEFAULT_TIME_OUT = 5;
 
 	public static final String LOGIN_PAGE_TITLE = "Account Login";
-	public static final String PAGE_HEADER = "LOGIN Panel";
+	public static final String LOGIN_PAGE_HEADER = "LOGIN Panel";
+	public static final String DASHBOARD_PAGE_HEADER = "LOGIN Panel";
 
-	public static final String ACCOUNT_PAGE_TITLE = "My Account";
+	public static final String DASHBOARD_PAGE_TITLE = "OrangeHRM";
 
-	public static final String ACCOUNT_PAGE_URL_FRACTION = "route=account/account";
+	public static final String DASHBOARD_PAGE_URL_FRACTION = "https://opensource-demo.orangehrmlive.com/index.php/dashboard";
 
 	public static final List<String> EXPECTED_ACC_SEC_LIST = Arrays.asList("My Account", "My Orders",
 																		"My Affiliate Account", "Newsletter");

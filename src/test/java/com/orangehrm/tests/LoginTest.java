@@ -25,7 +25,7 @@ public class LoginTest extends BaseTest {
 	public void loginPageHeaderTest() {
 		String header = loginPage.getPageHeaderText();
 		System.out.println("lp header is: " + header);
-		Assert.assertEquals(header, Constants.PAGE_HEADER, Errors.HEADER_ERROR_MESSG);
+		Assert.assertEquals(header, Constants.LOGIN_PAGE_HEADER, Errors.HEADER_ERROR_MESSG);
 	}
 
 	
