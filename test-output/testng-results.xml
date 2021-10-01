@@ -1,181 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="10" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Orange HRM Suite" duration-ms="54805" started-at="2021-10-01T13:46:59Z" finished-at="2021-10-01T13:47:53Z">
+  <suite name="Default suite" duration-ms="58" started-at="2021-10-01T17:52:13Z" finished-at="2021-10-01T17:52:13Z">
     <groups>
     </groups>
-    <test name="Login Page Test" duration-ms="119" started-at="2021-10-01T13:46:59Z" finished-at="2021-10-01T13:46:59Z">
-      <class name="com.orangehrm.tests.dataprovidertest">
-        <test-method status="PASS" signature="myTest(java.lang.String)[pri:0, instance:com.orangehrm.tests.dataprovidertest@7d9d1a19]" name="myTest" duration-ms="13" started-at="2021-10-01T13:46:59Z" data-provider="dptest" finished-at="2021-10-01T13:46:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Hello]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="58" started-at="2021-10-01T17:52:13Z" finished-at="2021-10-01T17:52:13Z">
+      <class name="com.orangehrm.tests.SeleniumEasy">
+        <test-method status="PASS" signature="printMsg1()[pri:0, instance:com.orangehrm.tests.SeleniumEasy@5ccddd20]" name="printMsg1" duration-ms="16" started-at="2021-10-01T17:52:13Z" finished-at="2021-10-01T17:52:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myTest -->
-        <test-method status="PASS" signature="myTest(java.lang.String)[pri:0, instance:com.orangehrm.tests.dataprovidertest@7d9d1a19]" name="myTest" duration-ms="6" started-at="2021-10-01T13:46:59Z" data-provider="dptest" finished-at="2021-10-01T13:46:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Gowthami]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- printMsg1 -->
+        <test-method status="PASS" signature="printMsg2()[pri:0, instance:com.orangehrm.tests.SeleniumEasy@5ccddd20]" name="printMsg2" duration-ms="3" started-at="2021-10-01T17:52:13Z" finished-at="2021-10-01T17:52:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myTest -->
-        <test-method status="PASS" signature="myTest(java.lang.String)[pri:0, instance:com.orangehrm.tests.dataprovidertest@7d9d1a19]" name="myTest" duration-ms="6" started-at="2021-10-01T13:46:59Z" data-provider="dptest" finished-at="2021-10-01T13:46:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[How]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- printMsg2 -->
+        <test-method status="PASS" signature="printMsg3()[pri:0, instance:com.orangehrm.tests.SeleniumEasy@5ccddd20]" name="printMsg3" duration-ms="2" started-at="2021-10-01T17:52:13Z" finished-at="2021-10-01T17:52:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myTest -->
-        <test-method status="PASS" signature="myTest(java.lang.String)[pri:0, instance:com.orangehrm.tests.dataprovidertest@7d9d1a19]" name="myTest" duration-ms="5" started-at="2021-10-01T13:46:59Z" data-provider="dptest" finished-at="2021-10-01T13:46:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[are u]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myTest -->
-        <test-method status="PASS" signature="myTest(java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.dataprovidertest@7d9d1a19]" name="myTest" duration-ms="3" started-at="2021-10-01T13:46:59Z" data-provider="dptest1" finished-at="2021-10-01T13:46:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Hello]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[11]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myTest -->
-        <test-method status="PASS" signature="myTest(java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.dataprovidertest@7d9d1a19]" name="myTest" duration-ms="2" started-at="2021-10-01T13:46:59Z" data-provider="dptest1" finished-at="2021-10-01T13:46:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Gowthami]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[22]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myTest -->
-        <test-method status="PASS" signature="myTest(java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.dataprovidertest@7d9d1a19]" name="myTest" duration-ms="7" started-at="2021-10-01T13:46:59Z" data-provider="dptest1" finished-at="2021-10-01T13:46:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[How]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[33]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myTest -->
-        <test-method status="PASS" signature="myTest(java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.dataprovidertest@7d9d1a19]" name="myTest" duration-ms="7" started-at="2021-10-01T13:46:59Z" data-provider="dptest1" finished-at="2021-10-01T13:46:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[are u]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[44]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myTest -->
-      </class> <!-- com.orangehrm.tests.dataprovidertest -->
-    </test> <!-- Login Page Test -->
-    <test name="DashBoard Page Test" duration-ms="54627" started-at="2021-10-01T13:46:59Z" finished-at="2021-10-01T13:47:53Z">
-      <class name="com.orangehrm.tests.DashBoardTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrm.tests.DashBoardTest@5cb9f472]" name="setUp" is-config="true" duration-ms="54609" started-at="2021-10-01T13:46:59Z" finished-at="2021-10-01T13:47:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="dashboardPageHeaderTest()[pri:2, instance:com.orangehrm.tests.DashBoardTest@5cb9f472]" name="dashboardPageHeaderTest" duration-ms="4" started-at="2021-10-01T13:47:53Z" finished-at="2021-10-01T13:47:53Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.tests.DashBoardTest.dashboardPageHeaderTest(DashBoardTest.java:29)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dashboardPageHeaderTest -->
-        <test-method status="FAIL" signature="dashboardPageUrlTest()[pri:3, instance:com.orangehrm.tests.DashBoardTest@5cb9f472]" name="dashboardPageUrlTest" duration-ms="2" started-at="2021-10-01T13:47:53Z" finished-at="2021-10-01T13:47:53Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.tests.DashBoardTest.dashboardPageUrlTest(DashBoardTest.java:35)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dashboardPageUrlTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.tests.DashBoardTest@5cb9f472]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-10-01T13:47:53Z" finished-at="2021-10-01T13:47:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.tests.DashBoardTest -->
-    </test> <!-- DashBoard Page Test -->
-  </suite> <!-- Orange HRM Suite -->
+        </test-method> <!-- printMsg3 -->
+      </class> <!-- com.orangehrm.tests.SeleniumEasy -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -23,7 +23,8 @@ public class SeleniumEasy {
 	
 	@Test
 	public void printMsg1() {
-		System.out.println("Hai");
+		System.out.println("Hello");
+		System.out.println("World");
 		
 	}
 	@Test
@@ -33,5 +34,6 @@ public class SeleniumEasy {
 	@Test
 	public void printMsg3() {
 		//driver.findElement(By.xpath("//div[@id=\"site-slogan\"]/h2")).getText();
+		System.out.println("iam in printMsg3 ");
 	}
 }
