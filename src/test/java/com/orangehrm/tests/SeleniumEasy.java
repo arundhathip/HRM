@@ -23,7 +23,8 @@ public class SeleniumEasy {
 	
 	@Test
 	public void printMsg1() {
-		System.out.println("Hai");
+		System.out.println("Hello");
+		System.out.println("World");
 		
 	}
 	@Test
