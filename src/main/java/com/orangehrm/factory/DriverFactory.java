@@ -58,7 +58,7 @@ public class DriverFactory {
 		getDriver().manage().window().maximize();
 
 		getDriver().get(prop.getProperty("url"));
-
+		//getDriver().get(prop.getProperty("seleniumurl"));
 		return getDriver();
 
 	}

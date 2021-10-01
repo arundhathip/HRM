@@ -17,13 +17,19 @@ public class LoginPage {
 	private By loginBtn = By.id("btnLogin");
 	private By forgotPwdLink = By.xpath("//div[@id='forgotPasswordLink']/a[text()='Forgotten Password']");
 	private By header = By.id("logInPanelHeading");
+	private  String WorkSheet = "LoginCredentials";
 	//private By registerLink = By.linkText("Register");
 
 	// constructor:
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 		elementUtil = new ElementUtil(driver);
+		
 	}
+	public String getSheetName() {
+		return this.WorkSheet;
+	}
+	
 	public String getLoginPageTitle() {
 		return elementUtil.waitForTitleIs(Constants.LOGIN_PAGE_TITLE, 5);
 	}

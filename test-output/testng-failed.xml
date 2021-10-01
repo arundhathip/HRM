@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [Orange HRM Suite]">
-  <test thread-count="2" verbose="4" name="Login Page Test(failed)">
-    <classes>
-      <class name="com.orangehrm.tests.LoginTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="forgotPwdLinkTest"/>
-        </methods>
-      </class> <!-- com.orangehrm.tests.LoginTest -->
-    </classes>
-  </test> <!-- Login Page Test(failed) -->
-  <test thread-count="2" verbose="4" name="DashBoard Page Test(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [Orange HRM Suite]" parallel="classes">
+  <test thread-count="2" verbose="4" name="DashBoard Page Test(failed)" parallel="classes">
     <classes>
       <class name="com.orangehrm.tests.DashBoardTest">
         <methods>
