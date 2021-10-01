@@ -52,67 +52,14 @@ public class LoginTest extends BaseTest {
 		 loginPage.doLogin(prop.getProperty("username").trim(),
 		prop.getProperty("password").trim());
 	}
-		 
-		 @DataProvider
-			public Object[][] getLoginData() throws InvalidFormatException
-		 {		 
-			return getTestData("sheet1");
-//				return new Object[][] {
-//											{"admin1", "admin2"},
-//											{"admin1", "admin2"},
-//											{"    ", "     "},
-//											{"     ","admin1"},
-//											{"admin3", "admin4"},
-//											{"123455", "test123"}
-//										};
-		}
-		 @DataProvider(name = "data-provider")
-		 public static Object[][] getTestData(String sheetName) throws InvalidFormatException { 
-		 Object data[][] = null;
-
-			try {
-				String path=System.getProperty("user.dir")+"/src/test/resources/testData/LoginData.xlsx";
-				FileInputStream ip = new FileInputStream(path);
-			     System.out.println("ip :"+ip.toString());
-				book = new XSSFWorkbook(ip);
-				//WorkbookFactory.create(ip);
-				System.out.println("book : "+book.toString());
-				
-				sheet = book.getSheet(sheetName);
-				System.out.println("sheet : " +sheet.toString());
-				data = new Object[sheet.getLastRowNum()][sheet.getRow(0).getLastCellNum()];
-
-				for (int i = 0; i < sheet.getLastRowNum(); i++) {
-					System.out.println();
-					for (int j = 0; j < sheet.getRow(0).getLastCellNum(); j++) {
-						data[i][j] = sheet.getRow(i + 1).getCell(j).toString();
-						System.out.print(data[i][j]  + "\t");
-					}
-				}
-
-			} catch (FileNotFoundException e) {
-				e.printStackTrace();
-		
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-
-			return data;
-		}
-
-		
-			
-			@Test(priority = 2, dataProvider = "getLoginData" )
-			public void login_NegativeTest(String un, String pwd) {
-				Assert.assertTrue(doLogin(un, pwd), "Invalid credentials.......");
-			}
-
-//			public void loginPage_WarnMessageTest(String un, String pwd) {
+	
+		@Test
+			public void loginPage_WarnMessageTest(String un, String pwd) {
 //     			if(doLogin(un,pwd)) {
 //					String ErrorMsg = driver.findElement(By.id("spanMessage")).getText();
 //					Assert.assertEquals(ErrorMsg,"Invalid Credentials","Please enter valid Credentials");
 //				}
-//			}
+			}
 
 			public boolean doLogin(String un, String pwd) {
 				loginPage.doLogin(un,pwd);
