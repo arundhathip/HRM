@@ -34,5 +34,6 @@ public class SeleniumEasy {
 	@Test
 	public void printMsg3() {
 		//driver.findElement(By.xpath("//div[@id=\"site-slogan\"]/h2")).getText();
+		System.out.println("iam in printMsg3 ");
 	}
 }
