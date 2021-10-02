@@ -10,6 +10,8 @@ public class Constants {
 	public static final String LOGIN_PAGE_TITLE = "Account Login";
 	public static final String LOGIN_PAGE_HEADER = "LOGIN Panel";
 	public static final String DASHBOARD_PAGE_HEADER = "LOGIN Panel";
+	public static final String SELENIUMEASY_PAGE_TITLE = "Selenium Easy - Best Demo website to practice Selenium Webdriver Online";
+	
 
 	public static final String DASHBOARD_PAGE_TITLE = "OrangeHRM";
 

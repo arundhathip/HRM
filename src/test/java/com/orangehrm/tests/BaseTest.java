@@ -21,7 +21,9 @@ public class BaseTest {
 	LoginPage loginPage;
 	DashBoardPage dashboardPage;
 	SeleniumEasy seleniumEasy;
+	SeleniumEasyHomepage seleniumEasyHomepage;
 	DriverFactory df;
+	
 	
 	
 	@BeforeTest
@@ -31,6 +33,7 @@ public class BaseTest {
 		driver = df.initDriver(prop);
 		loginPage = new LoginPage(driver);
 		//seleniumEasy = new SeleniumEasy(driver);
+		seleniumEasyHomepage= new SeleniumEasyHomepage(driver);
 	
 	}
 
